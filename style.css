@@ -145,6 +145,10 @@ header .container {
   display: none;
   animation: menuBtn 400ms ease-in-out alternate infinite;
 }
+@keyframes menuBtn {
+  0% { transform: scaleX(1); }
+  100% { transform: scaleX(0.5); }
+}
 
 .hamburger-menu .bar {
   position: relative;
