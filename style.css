@@ -143,6 +143,7 @@ header .container {
   justify-content: center;
   cursor: pointer;
   display: none;
+  animation: menuBtn 400ms ease-in-out alternate infinite;
 }
 
 .hamburger-menu .bar {
@@ -152,6 +153,7 @@ header .container {
   background-color: var(--darkTwo);
   border-radius: 3px;
   transition: 0.5s;
+/*   animation: menuBtn 400ms ease-in-out alternate infinite; */
 }
 
 .bar::before,
